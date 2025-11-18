@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base./my-react-project/",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://merdansahin.github.io/my-react-project/",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
